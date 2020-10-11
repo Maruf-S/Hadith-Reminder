@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.`` 
+*/
+/* 
+    Created on : Oct 12, 2019, 7:06:13 PM
+    Author     : Maruf's
+*/
+#stylec{
+    -fx-background-color: transparent;}
+#stylec:hover #stylecf{
+-fx-scale-x: 1.2;
+-fx-scale-y: 1.2;
+}
+
+#stickl{
+    -fx-background-color: transparent;
+}
+#body{
+    -fx-background-color:transparent;
+    
+}
+#close{
+    -fx-background-color: transparent;
+}
+#min{
+    -fx-text-alignment: right;
+    -fx-background-color: transparent;
+    -fx-fill:black;
+}
+#minf{
+        -fx-opacity:0.05;
+        -fx-scale-x:0.8;
+        -fx-scale-y:0.8;
+}
+#closef{
+    -fx-opacity: 0.05;
+}
+#min:hover #minf{
+    -fx-opacity:1;
+    -fx-fill:red;
+}
+#settings{
+    -fx-background-color: transparent;
+}
+#settingsf{
+    -fx-opacity: 0.7;
+}
+#settings:hover #settingsf{
+    -fx-opacity: 1;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;
+}
+#close:hover #closef{
+    -fx-opacity: 1;
+    -fx-scale-x: 1.2;
+    -fx-scale-y: 1.2;}
+
+#body  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+ 
+}
+ 
+/* The increment and decrement button CSS class of scrollbar */
+#body .increment-button ,#body .decrement-button {
+    -fx-background-color:transparent;
+    -fx-border-color:transparent;
+}
+#body .scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+	 -fx-border-color:transparent;
+	 -fx-background-radius: 0em;
+}
+#body .scroll-bar:vertical .thumb {
+    -fx-background-color:#ffffff;
+    -fx-opacity:0.1;
+	-fx-background-insets: 0, 0, 0;
+ 
+}
+#border{
+    -fx-background-color:transparent;
+        -fx-border-width: 0px 1px 1px 1px;
+        
+}

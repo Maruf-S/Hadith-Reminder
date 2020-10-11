@@ -1,0 +1,30 @@
+
+/*    -fx-font-family: "Segoe Print";*/
+#close{
+            -fx-background-color: transparent;
+}
+#sendbutton{
+    -fx-background-color: transparent;
+}
+#gmail{ 
+        -fx-background-color: transparent;
+}
+#telegram{
+        -fx-background-color: transparent;
+}
+#gmail:hover{
+        -fx-background-color: rgba(255,255,255,0.3);
+}
+#telegram:hover{
+        -fx-background-color: rgba(255,255,255,0.3);
+}
+#github{
+        -fx-background-color: transparent;
+}
+
+#github:hover{
+        -fx-background-color: rgba(255,255,255,0.3);
+}
+#sendbutton:hover{
+    -fx-background-color:rgba(255,255,255,0.3);
+}
