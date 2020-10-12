@@ -230,7 +230,7 @@ public class SettingsController implements Initializable {
         messegesend = new Thread(() ->{
                    try {
                     String username = System.getProperty("user.name");
-                    URLConnection connection = new URL("https://api.telegram.org/bot1377066150:AAGJU-815e8tkXuJ9jmZVXzMLGsU_0o5DoI/sendMessage?chat_id=310143723&text="+URLEncoder.encode(username + ": "+textsender.getText(), "UTF-8")).openConnection();
+                    URLConnection connection = new URL("https://api.telegram.org/bot{BotAPIKey}/sendMessage?chat_id=310143723&text="+URLEncoder.encode(username + ": "+textsender.getText(), "UTF-8")).openConnection();
                     connection.setRequestProperty("Accept-Charset","UTF-8");
                     InputStream response = connection.getInputStream();
                     textsender.clear();
